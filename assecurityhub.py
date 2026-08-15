@@ -58,8 +58,6 @@ nav {
     gap: 10px;
 }
 
-/* CSS LOGO */
-
 .logo {
     width: 48px;
     height: 48px;
@@ -140,8 +138,6 @@ nav {
 
     animation: fadeUp 1s ease;
 }
-
-/* BIG LOGO */
 
 .big-logo {
     width: 125px;
@@ -636,6 +632,22 @@ section {
     color: white;
 }
 
+.email-link {
+    color: #e21b23;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    word-break: break-word;
+}
+
+.email-link:hover {
+    color: #ff4a50;
+
+    text-decoration: underline;
+}
+
 
 /* ================= FOOTER ================= */
 
@@ -780,33 +792,27 @@ footer strong {
 
     <div class="hero-content">
 
-
         <div class="big-logo">
             AS
         </div>
-
 
         <div class="badge">
             PROFESSIONAL SECURITY & FACILITY SERVICES
         </div>
 
-
         <h1>
             AS <span>SECURITY</span>
         </h1>
 
-
         <h2>
             & Facility Services
         </h2>
-
 
         <p>
             Professional, reliable and responsible security
             solutions for residential, commercial,
             industrial and corporate requirements.
         </p>
-
 
         <div class="buttons">
 
@@ -816,14 +822,12 @@ footer strong {
                 📞 Call 9871351971
             </a>
 
-
             <a
             class="btn whatsapp"
             href="https://wa.me/919871351971"
             target="_blank">
                 💬 WhatsApp
             </a>
-
 
             <a
             class="btn explore"
@@ -853,7 +857,6 @@ footer strong {
         </p>
 
     </div>
-
 
     <div class="about-box">
 
@@ -904,9 +907,7 @@ footer strong {
 
     </div>
 
-
     <div class="cards">
-
 
         <div class="card">
 
@@ -1035,7 +1036,6 @@ footer strong {
 
         </div>
 
-
     </div>
 
 </section>
@@ -1057,9 +1057,7 @@ footer strong {
 
     </div>
 
-
     <div class="highlights">
-
 
         <div class="highlight">
 
@@ -1115,7 +1113,6 @@ footer strong {
 
         </div>
 
-
     </div>
 
 </section>
@@ -1136,7 +1133,6 @@ footer strong {
         </p>
 
     </div>
-
 
     <div class="founder-container">
 
@@ -1201,7 +1197,6 @@ footer strong {
 
         </div>
 
-
     </div>
 
 </section>
@@ -1222,7 +1217,6 @@ footer strong {
         </p>
 
     </div>
-
 
     <div class="area-box">
 
@@ -1256,13 +1250,33 @@ footer strong {
 
     </div>
 
-
     <div class="contact-box">
 
 
         <div class="phone">
 
             📞 <span>9871351971</span>
+
+        </div>
+
+
+        <!-- EMAIL -->
+
+        <div class="contact-item">
+
+            <strong>
+                Email
+            </strong>
+
+            <br>
+
+            <a
+            class="email-link"
+            href="mailto:shubhankarchoudhary1111@gmail.com">
+
+                ✉️ shubhankarchoudhary1111@gmail.com
+
+            </a>
 
         </div>
 
@@ -1313,6 +1327,15 @@ footer strong {
                 💬 WhatsApp Us
             </a>
 
+
+            <!-- EMAIL BUTTON -->
+
+            <a
+            class="btn explore"
+            href="mailto:shubhankarchoudhary1111@gmail.com">
+                ✉️ Email Us
+            </a>
+
         </div>
 
 
@@ -1336,6 +1359,16 @@ footer strong {
     Professional Security & Facility Solutions
     | Delhi NCR
 
+    <br>
+
+    <a
+    href="mailto:shubhankarchoudhary1111@gmail.com"
+    style="color:#e21b23; text-decoration:none;">
+
+        ✉️ shubhankarchoudhary1111@gmail.com
+
+    </a>
+
 </footer>
 
 
@@ -1352,7 +1385,7 @@ def home():
 if __name__ == "__main__":
 
     app.run(
-        host="127.0.0.1",
+        host="0.0.0.0",
         port=5000,
         debug=False
     )
